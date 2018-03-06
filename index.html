@@ -19,10 +19,12 @@
 
     <!-- Custom styles for this template -->
     <link href="css/one-page-wonder.min.css" rel="stylesheet">
+    <link href="css/infinite-slider.css" rel="stylesheet">
 
   </head>
 
   <body>
+
 
     <!-- Navigation -->
   <!--   <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
@@ -44,12 +46,15 @@
       </div>
     </nav> -->
 
+
+    
+<!-- CLASS OUTTER INNER AND MIDDLE ADDED TO INFINITE SLIDER.css -->
     <header class="masthead text-center text-white">
       <div class="masthead-content">
         <div class="container">
           <h1 class="masthead-heading mb-0">Partners of WEC</h1>
           <h2 class="masthead-subheading mb-0">Learn how we can help you</h2>
-          <a href="#" class="btn btn-primary btn-xl rounded-pill mt-5  js-scroll-trigger" href="#about">Learn More</a>
+          <a href="#sidbi" class="btn btn-primary btn-xl rounded-pill mt-5  js-scroll-trigger" >Learn More</a>
         </div>
       </div>
       <div class="bg-circle-1 bg-circle"></div>
@@ -57,9 +62,20 @@
       <div class="bg-circle-3 bg-circle"></div>
       <div class="bg-circle-4 bg-circle"></div>
     </header>
-
-    <section>
-      <div class="container" id ="about">
+<div class="container">
+  <section class="customer-logos slider">
+    <div class="slide middle  "><a class="js-scroll-trigger" href="#sidbi"><img class="img-thumbnail inner"src="http://www.careeranna.com/articles/wp-content/uploads/2016/06/429003-sidbi-edited.jpg"></a></div>
+    <div class="slide"><a class="js-scroll-trigger"href="#crisil"><img class="img-thumbnail "src="https://pbs.twimg.com/profile_images/725565111457353735/-0vqCydM_400x400.jpg"></a></div>
+    <div class="slide"><a class="js-scroll-trigger"href="#mann_deshi"><img class="img-thumbnail"src="http://www.manndeshibank.com/md-logo-white.png"></a></div>
+    <div class="slide "><a class="js-scroll-trigger"href="#wee"><img class="img-thumbnail"src="http://weefoundation.org/image/weelogo.jpg"></a></div>
+    <div class="slide middle"><a class="js-scroll-trigger"href="#dice"><img class="img-thumbnail inner"src="img/DiceLogo.png"></a></div>
+    <div class="slide"><a class="js-scroll-trigger"href="#facebook"><img class="img-thumbnail" src="https://www.seeklogo.net/wp-content/uploads/2016/09/facebook-icon-preview-400x400.png"></a></div>
+    <div class="slide"><a class="js-scroll-trigger"href="#nasscom"><img class="img-thumbnail inner" src="https://www.dotcominfoway.com/wp-content/uploads/2010/01/nasscom-member.jpg"></a></div>
+    <div class="slide"><a class="js-scroll-trigger"href="#icai"><img class="img-thumbnail" src="https://www.icai.org/icaiogg.jpg"></a></div>
+  </section>
+</div>
+    <section id="sidbi">
+      <div class="container" >
         <div class="row align-items-center">
           <div class="col-lg-6 order-lg-2">
             <div class="p-5">
@@ -96,7 +112,7 @@
     </section>
 
     <section>
-      <div class="container">
+      <div class="container" id ="crisil">
         <div class="row align-items-center">
           <div class="col-lg-6">
             <div class="p-5">
@@ -125,7 +141,7 @@ to enable credit access to the enterprises of women entrepreneurs<u></u>    <u><
       </div>
     </section>
 
-    <section>
+    <section id="mann_deshi">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-6 order-lg-2">
@@ -159,7 +175,7 @@ to enable credit access to the enterprises of women entrepreneurs<u></u>    <u><
         </div>
       </div>
     </section> 
-    <section>
+    <section id="wee">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-6">
@@ -192,7 +208,7 @@ to enable credit access to the enterprises of women entrepreneurs<u></u>    <u><
       </div>
     </section>
 
-    <section>
+    <section id="dice">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-6 order-lg-2">
@@ -232,7 +248,7 @@ resources (CSR + Marketing) to support the SISTERS IN BUSINESS community    <u><
         </div>
       </div>
     </section> 
-     <section>
+     <section id="facebook">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-6">
@@ -281,7 +297,7 @@ resources (CSR + Marketing) to support the SISTERS IN BUSINESS community    <u><
       </div>
     </section>
 
-    <section>
+    <section id="nasscom">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-6 order-lg-2">
@@ -341,7 +357,8 @@ resources (CSR + Marketing) to support the SISTERS IN BUSINESS community    <u><
           </div>
         </div>
       </div>
-    </section>     <section>
+    </section>    
+     <section id="icai">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-6">
@@ -432,8 +449,10 @@ time involved. The said panel contains the list of 609 Members.<u></u>    <u></u
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.compatibility.js"></script>
+     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
     <script src="js/javascript.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+
 
   </body>
 
