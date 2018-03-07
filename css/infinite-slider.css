@@ -1,4 +1,23 @@
 /* Slider */
+section{
+  background: white;
+}
+/* select alternating items starting with the second item */
+section:nth-of-type(2n) {
+  background: lightslategrey;
+  color: white;
+}
+#sticky-navigation {
+    background: rgba(255,255,255,0);
+}
+.navbar.scrolled {
+    background: rgb(68, 68, 68); /* IE */
+    background: rgba(0, 0, 0, 0.78); /* NON-IE */
+}
+
+.heading{
+    text-align: center;
+}
 #back-to-top {
     position: fixed;
     bottom: 40px;
